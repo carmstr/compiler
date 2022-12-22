@@ -3,6 +3,7 @@ export type compile = (source: source, name?: string) => object;
 
 export type facet = (descriptor: Descriptor) => void;
 
+
 export class Type {
 	constructor(source: source, name: string) {
 		source[TYPE] = this;
