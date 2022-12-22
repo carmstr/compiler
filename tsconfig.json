@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+      // "baseUrl": ".", // This must be specified if "paths" is.
+      // "paths": {
+      //  "asm": ["../asm"]
+      // },
+      "lib": ["DOM", "DOM.Iterable", "ESNEXT"],
+      "target": "ESNEXT",
+      "module": "ESNEXT",
+      "outDir": "./build",
+      "sourceMap": true,
+  }
+}
